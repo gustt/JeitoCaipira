@@ -1,0 +1,36 @@
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\bin\Bananas.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\bin\Bananas.pdb
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\bin\References.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\bin\References.pdb
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\obj\Debug\Bananas.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\obj\Debug\Bananas.pdb
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\bin\DBLayers.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Bananas\bin\DBLayers.pdb
+C:\Projeto_Banana\Bananas\bin\Bananas.dll
+C:\Projeto_Banana\Bananas\bin\Bananas.pdb
+C:\Projeto_Banana\Bananas\bin\DBLayers.dll
+C:\Projeto_Banana\Bananas\bin\References.dll
+C:\Projeto_Banana\Bananas\bin\DBLayers.pdb
+C:\Projeto_Banana\Bananas\bin\References.pdb
+C:\Projeto_Banana\Bananas\obj\Debug\ResolveAssemblyReference.cache
+C:\Projeto_Banana\Bananas\obj\Debug\Bananas.dll
+C:\Projeto_Banana\Bananas\obj\Debug\Bananas.pdb
+C:\VS2010Projetos\Bananas\bin\Bananas.dll
+C:\VS2010Projetos\Bananas\bin\Bananas.pdb
+C:\VS2010Projetos\Bananas\bin\DBLayers.dll
+C:\VS2010Projetos\Bananas\bin\References.dll
+C:\VS2010Projetos\Bananas\bin\DBLayers.pdb
+C:\VS2010Projetos\Bananas\bin\References.pdb
+C:\VS2010Projetos\Bananas\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010Projetos\Bananas\obj\Debug\Bananas.dll
+C:\VS2010Projetos\Bananas\obj\Debug\Bananas.pdb
+C:\PROJETO_JEITOCAIPIRA\Bananas\bin\JeitoCaipira.dll
+C:\PROJETO_JEITOCAIPIRA\Bananas\bin\JeitoCaipira.pdb
+C:\PROJETO_JEITOCAIPIRA\Bananas\bin\DBLayers.dll
+C:\PROJETO_JEITOCAIPIRA\Bananas\bin\References.dll
+C:\PROJETO_JEITOCAIPIRA\Bananas\bin\DBLayers.pdb
+C:\PROJETO_JEITOCAIPIRA\Bananas\bin\References.pdb
+C:\PROJETO_JEITOCAIPIRA\Bananas\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJETO_JEITOCAIPIRA\Bananas\obj\Debug\JeitoCaipira.dll
+C:\PROJETO_JEITOCAIPIRA\Bananas\obj\Debug\JeitoCaipira.pdb

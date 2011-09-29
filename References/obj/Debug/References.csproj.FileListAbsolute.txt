@@ -1,0 +1,25 @@
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\References\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\References\bin\Debug\References.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\References\bin\Debug\References.pdb
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\References\obj\Debug\References.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\References\obj\Debug\References.pdb
+C:\Projeto_Banana\References\bin\Debug\References.dll
+C:\Projeto_Banana\References\bin\Debug\References.pdb
+C:\Projeto_Banana\References\obj\Debug\ResolveAssemblyReference.cache
+C:\Projeto_Banana\References\obj\Debug\References.dll
+C:\Projeto_Banana\References\obj\Debug\References.pdb
+C:\VS2010Projetos\References\bin\Debug\References.dll
+C:\VS2010Projetos\References\bin\Debug\References.pdb
+C:\VS2010Projetos\References\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010Projetos\References\obj\Debug\References.dll
+C:\VS2010Projetos\References\obj\Debug\References.pdb
+C:\PROJETO_JEITOCAIPIRA\References\bin\Debug\References.dll
+C:\PROJETO_JEITOCAIPIRA\References\bin\Debug\References.pdb
+C:\PROJETO_JEITOCAIPIRA\References\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJETO_JEITOCAIPIRA\References\obj\Debug\References.dll
+C:\PROJETO_JEITOCAIPIRA\References\obj\Debug\References.pdb
+C:\Profissional\JeitoCaipira\References\bin\Debug\References.dll
+C:\Profissional\JeitoCaipira\References\bin\Debug\References.pdb
+C:\Profissional\JeitoCaipira\References\obj\Debug\ResolveAssemblyReference.cache
+C:\Profissional\JeitoCaipira\References\obj\Debug\References.dll
+C:\Profissional\JeitoCaipira\References\obj\Debug\References.pdb

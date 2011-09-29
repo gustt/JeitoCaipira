@@ -1,0 +1,85 @@
+﻿#dFnd1
+{
+    width: 480px;
+    height: 220px;
+    background: #333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -240px;
+    margin-top: -110px;
+}
+#dFnd2
+{
+    background-color: #5f5f5f;
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 17.5%;
+}
+#imgCadeado
+{
+    width: 96px;
+    height: 96px;
+    background: url(img/cadeado-login.png) no-repeat;
+    position: absolute;
+    z-index: 1;
+    margin-top: -35px;
+    margin-left: -25px;
+}
+#tUsuarioSenha
+{
+    padding: 15px 0px 0px 10px;
+    z-index: 0;
+}
+#spArea, #spAreaBack
+{
+    font-family: Franklin Gothic Medium Cond;
+    font-size: 38pt;
+    position: absolute;
+    margin-top: -25px;
+    left: 56px;
+    z-index: 1;
+}
+#spAreaBack
+{
+    z-index: 0;
+    color: #0d0d0d;
+    left: 60px;
+    margin-top: -21px;    
+}
+#keys
+{
+    position: absolute;
+    background: url(img/keys-login.png) no-repeat;
+    top: 15px;
+    width: 126px;
+    height: 99px;
+    left: 300px;
+}
+#sLogar, #sLogarBack
+{
+    font-family: Franklin Gothic Medium Cond;
+    font-size: 30pt;
+    position: absolute;
+    left: 45px;
+    font-weight: bold;
+    top: 40px;
+    letter-spacing: 4px;
+    z-index: 1;    
+}
+#sLogarBack
+{
+    left: 46px;
+    top: 42px;
+    color: #5a001a;
+    z-index: 0;
+}
+#sLogar a
+{
+    color: #fff;
+}
+#sLogar a:hover
+{
+    color: #ffa408;
+}

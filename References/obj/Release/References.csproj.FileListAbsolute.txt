@@ -1,0 +1,5 @@
+C:\VS2010Projetos\References\bin\Release\References.dll
+C:\VS2010Projetos\References\bin\Release\References.pdb
+C:\VS2010Projetos\References\obj\Release\ResolveAssemblyReference.cache
+C:\VS2010Projetos\References\obj\Release\References.dll
+C:\VS2010Projetos\References\obj\Release\References.pdb

@@ -1,0 +1,7 @@
+C:\VS2010Projetos\Layers\bin\Release\DBLayers.dll
+C:\VS2010Projetos\Layers\bin\Release\DBLayers.pdb
+C:\VS2010Projetos\Layers\bin\Release\References.dll
+C:\VS2010Projetos\Layers\bin\Release\References.pdb
+C:\VS2010Projetos\Layers\obj\Release\ResolveAssemblyReference.cache
+C:\VS2010Projetos\Layers\obj\Release\DBLayers.dll
+C:\VS2010Projetos\Layers\obj\Release\DBLayers.pdb

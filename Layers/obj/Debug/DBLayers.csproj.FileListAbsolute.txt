@@ -1,0 +1,33 @@
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\bin\Debug\DBLayers.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\bin\Debug\DBLayers.pdb
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\obj\Debug\DBLayers.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\obj\Debug\DBLayers.pdb
+C:\Projeto_Banana\Layers\bin\Debug\DBLayers.dll
+C:\Projeto_Banana\Layers\bin\Debug\DBLayers.pdb
+C:\Projeto_Banana\Layers\bin\Debug\References.dll
+C:\Projeto_Banana\Layers\bin\Debug\References.pdb
+C:\Projeto_Banana\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\Projeto_Banana\Layers\obj\Debug\DBLayers.dll
+C:\Projeto_Banana\Layers\obj\Debug\DBLayers.pdb
+C:\VS2010Projetos\Layers\bin\Debug\DBLayers.dll
+C:\VS2010Projetos\Layers\bin\Debug\DBLayers.pdb
+C:\VS2010Projetos\Layers\bin\Debug\References.dll
+C:\VS2010Projetos\Layers\bin\Debug\References.pdb
+C:\VS2010Projetos\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2010Projetos\Layers\obj\Debug\DBLayers.dll
+C:\VS2010Projetos\Layers\obj\Debug\DBLayers.pdb
+C:\PROJETO_JEITOCAIPIRA\Layers\bin\Debug\DBLayers.dll
+C:\PROJETO_JEITOCAIPIRA\Layers\bin\Debug\DBLayers.pdb
+C:\PROJETO_JEITOCAIPIRA\Layers\bin\Debug\References.dll
+C:\PROJETO_JEITOCAIPIRA\Layers\bin\Debug\References.pdb
+C:\PROJETO_JEITOCAIPIRA\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\PROJETO_JEITOCAIPIRA\Layers\obj\Debug\DBLayers.dll
+C:\PROJETO_JEITOCAIPIRA\Layers\obj\Debug\DBLayers.pdb
+C:\Profissional\JeitoCaipira\Layers\bin\Debug\DBLayers.dll
+C:\Profissional\JeitoCaipira\Layers\bin\Debug\DBLayers.pdb
+C:\Profissional\JeitoCaipira\Layers\bin\Debug\References.dll
+C:\Profissional\JeitoCaipira\Layers\bin\Debug\References.pdb
+C:\Profissional\JeitoCaipira\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\Profissional\JeitoCaipira\Layers\obj\Debug\DBLayers.dll
+C:\Profissional\JeitoCaipira\Layers\obj\Debug\DBLayers.pdb

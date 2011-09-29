@@ -1,0 +1,29 @@
+﻿#BtSalvar
+{
+    background: url(img/toolbar-ico-salvar.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+#BtExcluir
+{
+    background: url(img/toolbar-ico-excluir.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+#BtNovo
+{
+    background: url(img/toolbar-ico-novo.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+.toolbar-bt div
+{
+    padding-left: 10px;
+    
+}
+.toolbar-bt span
+{
+    padding-left: 2px;
+    margin-top: -2px;
+    float: left;
+}

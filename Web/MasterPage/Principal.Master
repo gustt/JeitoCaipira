@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs"
+    Inherits="JeitoCaipira.MasterPage.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Jeito Caipira</title>
+    <link href="../Style/MasterPagePrincipal.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="site">
+        <div class="topo">
+            <div class="logo">
+                <img src="../Imagens/topo/logo.png" />
+                <img src="../Imagens/topo/jeitao.png" style="margin-bottom: 10px;" />
+            </div>
+            <div class="musica">
+                <div class="player">
+                    aaaaa
+                </div>
+                <div class="sanfona">
+                    <img src="../Imagens/topo/sanfona.png" />
+                </div>
+            </div>
+            <div class="login">
+                <img src="../Imagens/topo/cadastro.png" />
+                <br />
+                login
+                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
+                senha
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        <br clear="all" />
+        <div>
+            <div class="conteudo">
+                <div class="menu">
+                    <center>
+                        <asp:HyperLink runat="server" ID="lnkHome" NavigateUrl="../Default.aspx" CssClass="linkMenu" ImageUrl="~/Imagens/menu/homeMenu.png" />
+                        <asp:HyperLink runat="server" ID="lnkLocutores" NavigateUrl="#" CssClass="linkMenu"
+                            ImageUrl="~/Imagens/menu/locutoresMenu.png" />
+                        <asp:HyperLink runat="server" ID="HyperLink2" NavigateUrl="#" CssClass="linkMenu"
+                            ImageUrl="~/Imagens/menu/fazendoMenu.png" />
+                        <asp:HyperLink runat="server" ID="HyperLink3" NavigateUrl="#" CssClass="linkMenu"
+                            ImageUrl="~/Imagens/menu/alowwMenu.png" />
+                        <asp:HyperLink runat="server" ID="HyperLink4" NavigateUrl="#" CssClass="linkMenu"
+                            ImageUrl="~/Imagens/menu/parceiroMenu.png" />
+                        <asp:HyperLink runat="server" ID="HyperLink5" NavigateUrl="#" CssClass="linkMenu"
+                            ImageUrl="~/Imagens/menu/anuncieMenu.png" />
+                        <asp:HyperLink runat="server" ID="HyperLink6" NavigateUrl="#" CssClass="linkMenu"
+                            ImageUrl="~/Imagens/menu/cadastreMenu.png" /></center>
+                </div>
+                <div class="placeHolder">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="parceiro">
+                <img src="../Imagens/parceiros/parceiros.png" />
+                <center>
+                    <div class="listaParceiros">
+                        <asp:DataList runat="server" ID="dtlParceiro">
+                            <ItemTemplate>
+                                <div class="quadrado">
+                                    <a href="http://www.google.com.br">
+                                        <img src="../Imagens/topo/logo.png" class="imgParceiro" /></a>
+                                </div>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </div>
+                    <div>
+                        <img src="../Imagens/parceiros/sejaParceiro.png" />
+                    </div>
+                </center>
+            </div>
+            <br clear="all" />
+        </div>
+    </div>
+    <div class="rodape">
+        Todos os direitos reservados - 2011
+    </div>
+    </form>
+</body>
+</html>

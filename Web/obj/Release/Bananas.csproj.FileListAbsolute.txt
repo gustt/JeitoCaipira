@@ -1,0 +1,9 @@
+C:\VS2010Projetos\Bananas\bin\Bananas.dll
+C:\VS2010Projetos\Bananas\bin\Bananas.pdb
+C:\VS2010Projetos\Bananas\bin\DBLayers.dll
+C:\VS2010Projetos\Bananas\bin\References.dll
+C:\VS2010Projetos\Bananas\bin\DBLayers.pdb
+C:\VS2010Projetos\Bananas\bin\References.pdb
+C:\VS2010Projetos\Bananas\obj\Release\ResolveAssemblyReference.cache
+C:\VS2010Projetos\Bananas\obj\Release\Bananas.dll
+C:\VS2010Projetos\Bananas\obj\Release\Bananas.pdb

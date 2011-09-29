@@ -1,0 +1,204 @@
+﻿body
+{
+    background: url('../Imagens/bg/site.jpg') #231a17 repeat-x;
+    margin: 0px 0px 30px 0px;
+    font: Verdana, Arial 14px;
+}
+
+.site
+{
+    background-image: url('../Imagens/bg/bgContent.png');
+    width: 800px;
+    margin: 0px auto;
+    border: 1px solid #000;
+}
+
+.rodapeSite
+{
+    margin: 0px auto;
+}
+
+.logo
+{
+    padding: 20px 0px 10px 15px;
+    float: left;
+}
+
+.menu
+{
+    background-image: url('../Imagens/bg/bgMenu.png');
+    background-repeat: no-repeat;
+    margin: 0px 10px 0px 5px;
+}
+
+.linkMenu
+{
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.conteudo
+{
+    width: 600px;
+    float: left;
+}
+
+.quadrado
+{
+    background-image: url('../Imagens/parceiros/quadradoBranco.png');
+    width: 176px;
+    height: 163px;
+}
+
+.quadradoVemPorAi
+{
+    background-image: url('../Imagens/home/vemporai.png');
+}
+
+.parceiro
+{
+    width: 200px;
+    float: right;
+    margin-top: -10px;
+}
+
+.placeHolder
+{
+    padding: 15px;
+}
+
+.musica
+{
+    float: left;
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.oquevemporai
+{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.musica .player
+{
+    width: 151px;
+    height: 54px;
+    background-image: url('../Imagens/bg/fundoRadio.png');
+    color: #FFF;
+    padding: 3px;
+    position: absolute;
+}
+.musica .sanfona
+{
+    float: left;
+    position: relative;
+    margin-left: 120px;
+    margin-top: -25px;
+    background-image: url('../Imagens/topo/sanfona.png');
+}
+
+.login
+{
+    float: left;
+    width: 180px;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+
+.calendario
+{
+    margin-top: 10px;
+}
+
+.manugiratorio
+{
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+#menu
+{
+    background-image: url('../Imagens/bg/bgContent.png');        
+}
+
+
+.calendarioComponente
+{
+    background-image: url('../Imagens/rodape/calendario.png');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.btnMais
+{
+    position: absolute;
+    margin-top: 203px;
+    margin-left: -30px;
+}
+
+.login img
+{
+    margin-bottom: 10px;
+}
+
+.login input
+{
+    padding: 0px;
+    border: 0;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.topo
+{
+    width: 800px;
+}
+
+.tituloParceiro
+{
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    margin-left: 202px;
+}
+
+.rodape
+{
+    background-image: url('../Imagens/rodape/rodape.png');
+    width: 800px;
+    height: 24px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.listaParceiros
+{
+    padding-top: 15px;
+    margin-top: -40px;
+}
+
+
+input
+{
+    border: none;
+    background-image: url('../Imagens/input/textLogin.png');
+    width: 100px;
+    height: 16px;
+}
+
+.imgParceiro
+{
+    width: 156px;
+    height: 143px;
+    margin: 10px 10px 10px 10px;
+    border: none;
+}
+
+.imgVemPorAi
+{
+    border: none;
+}

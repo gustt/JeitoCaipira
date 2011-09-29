@@ -1,0 +1,5 @@
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\bin\Debug\Layers.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\bin\Debug\Layers.pdb
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\obj\Debug\Layers.dll
+C:\Users\Gustavo\documents\visual studio 2010\Projects\Layers\Layers\obj\Debug\Layers.pdb

@@ -1,0 +1,32 @@
+﻿body
+{
+    background: #000;
+    font-family: Calibri, Verdana, Arial;
+    color: #ffa408;
+}
+input[type=text], input[type=password]
+{
+    background: #f0c264 url(img/input-text-background.png) repeat-x;
+    height: 26px;
+    border: 1px solid #fff55c;
+    font-size: 24px;
+    width: 220px;
+}
+span
+{
+    display: block;
+}
+th
+{
+    font-size: 16pt;
+    text-align: left;
+}
+a
+{
+    text-decoration: none;
+    color: #ffa408;
+}
+a:hover
+{
+    color: #FFF;
+}
