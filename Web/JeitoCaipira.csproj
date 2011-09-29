@@ -47,71 +47,40 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Themes\Administrativo\ascx_toolbar.css" />
-    <Content Include="App_Themes\Administrativo\aspx_masterpage.css" />
-    <Content Include="App_Themes\Administrativo\estrutura_geral.css" />
-    <Content Include="App_Themes\Administrativo\img\administrativo-background.png" />
-    <Content Include="App_Themes\Administrativo\img\administrativo-menu-background.png" />
-    <Content Include="App_Themes\Administrativo\img\administrativo-topbar-logout.png" />
-    <Content Include="App_Themes\Administrativo\img\administrativo-topbar-radio.png" />
-    <Content Include="App_Themes\Administrativo\img\administrativo-logo.png" />
-    <Content Include="App_Themes\Administrativo\img\toolbar-background.png" />
-    <Content Include="App_Themes\Administrativo\img\toolbar-ico-excluir.png" />
-    <Content Include="App_Themes\Administrativo\img\toolbar-ico-menu-item-2.png" />
-    <Content Include="App_Themes\Administrativo\img\toolbar-ico-menu-item.png" />
-    <Content Include="App_Themes\Administrativo\img\toolbar-ico-novo.png" />
-    <Content Include="App_Themes\Administrativo\img\toolbar-ico-salvar.png" />
-    <Content Include="App_Themes\Administrativo\skin_ids.css" />
-    <Content Include="App_Themes\Player\aspx_login.css" />
-    <Content Include="App_Themes\Player\aspx_player.css" />
-    <Content Include="App_Themes\Player\estrutura_geral.css" />
-    <Content Include="App_Themes\Player\img\cadeado-login.png" />
-    <Content Include="App_Themes\Player\img\input-text-background.png" />
-    <Content Include="App_Themes\Player\img\keys-login.png" />
-    <Content Include="App_Themes\Player\img\player-background.png" />
-    <Content Include="App_Themes\Player\img\player-detalhe-box-comunicado.png" />
-    <Content Include="App_Themes\Player\img\player-detalhe-box.png" />
-    <Content Include="App_Themes\Player\img\player-logo.png" />
-    <Content Include="App_Themes\Player\img\player-logout.png" />
-    <Content Include="App_Themes\Player\img\player-usuario-online.png" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Imagens\bg\bgBody.png" />
-    <Content Include="Imagens\bg\bgContent.png" />
-    <Content Include="Imagens\bg\bgMenu.png" />
-    <Content Include="Imagens\bg\fundoRadio.png" />
-    <Content Include="Imagens\bg\site.jpg" />
-    <Content Include="Imagens\home\btn+.png" />
-    <Content Include="Imagens\home\oquevemporai.png" />
-    <Content Include="Imagens\home\vemporai.png" />
-    <Content Include="Imagens\input\textLogin.png" />
-    <Content Include="Imagens\menu\alowwMenu.png" />
-    <Content Include="Imagens\menu\anuncieMenu.png" />
-    <Content Include="Imagens\menu\cadastreMenu.png" />
-    <Content Include="Imagens\menu\fazendoMenu.png" />
-    <Content Include="Imagens\menu\homeMenu.png" />
-    <Content Include="Imagens\menu\locutoresMenu.png" />
-    <Content Include="Imagens\menu\parceiroMenu.png" />
-    <Content Include="Imagens\parceiros\parceiros.png" />
-    <Content Include="Imagens\parceiros\quadradoBranco.png" />
-    <Content Include="Imagens\parceiros\sejaParceiro.png" />
-    <Content Include="Imagens\rodape\cadastre.png" />
-    <Content Include="Imagens\rodape\calendario.png" />
-    <Content Include="Imagens\rodape\calendario1.png" />
-    <Content Include="Imagens\rodape\rodape.png" />
-    <Content Include="Imagens\topo\cadastro.png" />
-    <Content Include="Imagens\topo\jeitao.png" />
-    <Content Include="Imagens\topo\logo.png" />
-    <Content Include="Imagens\topo\sanfona.png" />
-    <Content Include="Login\Login.aspx" />
+    <Content Include="App_Themes\Padrao\Imagens\bg\bgBody.png" />
+    <Content Include="App_Themes\Padrao\Imagens\bg\bgContent.png" />
+    <Content Include="App_Themes\Padrao\Imagens\bg\bgMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\bg\fundoRadio.png" />
+    <Content Include="App_Themes\Padrao\Imagens\bg\site.jpg" />
+    <Content Include="App_Themes\Padrao\Imagens\home\btn+.png" />
+    <Content Include="App_Themes\Padrao\Imagens\home\oquevemporai.png" />
+    <Content Include="App_Themes\Padrao\Imagens\home\vemporai.png" />
+    <Content Include="App_Themes\Padrao\Imagens\input\textLogin.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\alowwMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\anuncieMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\cadastreMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\fazendoMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\homeMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\locutoresMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\menu\parceiroMenu.png" />
+    <Content Include="App_Themes\Padrao\Imagens\parceiros\parceiros.png" />
+    <Content Include="App_Themes\Padrao\Imagens\parceiros\quadradoBranco.png" />
+    <Content Include="App_Themes\Padrao\Imagens\parceiros\sejaParceiro.png" />
+    <Content Include="App_Themes\Padrao\Imagens\rodape\cadastre.png" />
+    <Content Include="App_Themes\Padrao\Imagens\rodape\calendario.png" />
+    <Content Include="App_Themes\Padrao\Imagens\rodape\calendario1.png" />
+    <Content Include="App_Themes\Padrao\Imagens\rodape\rodape.png" />
+    <Content Include="App_Themes\Padrao\Imagens\topo\cadastro.png" />
+    <Content Include="App_Themes\Padrao\Imagens\topo\jeitao.png" />
+    <Content Include="App_Themes\Padrao\Imagens\topo\logo.png" />
+    <Content Include="App_Themes\Padrao\Imagens\topo\sanfona.png" />
     <Content Include="MailTemplates\emailpadrao.htm" />
     <Content Include="menu.swf" />
     <Content Include="Paginas\CadastroMembro.aspx" />
     <Content Include="Paginas\UserControls\InstanciaMembro.ascx" />
-    <Content Include="Scripts\jquery-1.3.2-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.3.2.js" />
-    <Content Include="Scripts\jquery-1.3.2.min.js" />
-    <Content Include="Style\MasterPagePrincipal.css" />
+    <Content Include="App_Themes\Padrao\main.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -132,13 +101,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Login\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
@@ -164,12 +126,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Util.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Administrativo\Admin.Master" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Layers\DBLayers.csproj">
       <Project>{F99D8BDC-808B-4511-9F9F-1B994922B0B7}</Project>
@@ -179,17 +136,6 @@
       <Project>{ECEAF15B-F6D8-402B-89FD-8BF46F8F336A}</Project>
       <Name>References</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Themes\Player\SkinFile.skin" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Administrativo\Web.config">
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Themes\Administrativo\SkinFile.skin" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage\Principal.Master" />

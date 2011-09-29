@@ -1,27 +1,24 @@
 ﻿body
 {
-    background: url('../Imagens/bg/site.jpg') #231a17 repeat-x;
+    background: url('Imagens/bg/site.jpg') #231a17 repeat-x;
     margin: 0px 0px 30px 0px;
-    font: Verdana, Arial 14px;
+    font-family: Verdana, Arial;
+    font-size: 14px;
 }
 
-.site
+#corpo-site
 {
-    background-image: url('../Imagens/bg/bgContent.png');
+    background-image: url('Imagens/bg/bgContent.png');
     width: 800px;
     margin: 0px auto;
     border: 1px solid #000;
 }
 
-.rodapeSite
-{
-    margin: 0px auto;
-}
-
-.logo
+#logomarca
 {
     padding: 20px 0px 10px 15px;
     float: left;
+    background: url('Imagens/topo/logo.png') no-repeat;
 }
 
 .menu
