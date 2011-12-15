@@ -17,13 +17,31 @@
         <div id="panel-player">>> flash player <<</div>
         <div id="panel-musica"><asp:Literal ID="lblNomeMusica" runat="Server" Text="Quero ver vc por isso aqui pra funcionar..." /></div>
       </div>
-      <div class="login">
-        <img src="../Imagens/topo/cadastro.png" alt=" " />
-        <br />
-        login
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-        senha
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+      <div id="login-group">
+        <div id="login-titulo"></div>
+        <ul id="login-panel">
+            <li>
+                <ul>
+                    <li>
+                        <span style="float: right;">Login:</span>
+                    </li>
+                    <li>
+                        <asp:TextBox ID="txtUsurio" runat="server" />
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <span style="float: right;">Senha:</span>
+                    </li>
+                    <li>
+                        <asp:TextBox ID="txtSenha" runat="server" TextMode="Password" />
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <asp:ImageButton runat="Server" ID="btnLogar" ToolTip="Efetuar Logon" ImageUrl="Imagens\input\btnEnviar.png"/>
       </div>
     </div>
     <br clear="all" />
