@@ -11,14 +11,11 @@
   <div id="corpo-site">
     <div class="topo">
       <div id="logomarca"></div>
-      <img src="../Imagens/topo/jeitao.png" style="margin-bottom: 10px;" alt="Logo" />
-      <div class="musica">
-        <div class="player">
-          [Atista - Música]
-        </div>
-        <div class="sanfona">
-          <img src="../Imagens/topo/sanfona.png" alt=" " />
-        </div>
+      <div id="titulo-logo"></div>
+      <div id="player-group">
+        <div id="sanfona"></div>
+        <div id="panel-player">>> flash player <<</div>
+        <div id="panel-musica"><asp:Literal ID="lblNomeMusica" runat="Server" Text="Quero ver vc por isso aqui pra funcionar..." /></div>
       </div>
       <div class="login">
         <img src="../Imagens/topo/cadastro.png" alt=" " />

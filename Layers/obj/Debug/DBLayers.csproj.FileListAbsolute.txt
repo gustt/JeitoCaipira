@@ -31,3 +31,10 @@ C:\Profissional\JeitoCaipira\Layers\bin\Debug\References.pdb
 C:\Profissional\JeitoCaipira\Layers\obj\Debug\ResolveAssemblyReference.cache
 C:\Profissional\JeitoCaipira\Layers\obj\Debug\DBLayers.dll
 C:\Profissional\JeitoCaipira\Layers\obj\Debug\DBLayers.pdb
+C:\Git\JeitoCaipira\Layers\bin\Debug\DBLayers.dll
+C:\Git\JeitoCaipira\Layers\bin\Debug\DBLayers.pdb
+C:\Git\JeitoCaipira\Layers\bin\Debug\References.dll
+C:\Git\JeitoCaipira\Layers\bin\Debug\References.pdb
+C:\Git\JeitoCaipira\Layers\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\JeitoCaipira\Layers\obj\Debug\DBLayers.dll
+C:\Git\JeitoCaipira\Layers\obj\Debug\DBLayers.pdb

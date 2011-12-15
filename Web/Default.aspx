@@ -7,9 +7,10 @@
             width="580" height="270" id="menu" align="middle">
             <param name="allowScriptAccess" value="sameDomain" />
             <param name="allowFullScreen" value="false" />
+            <param name="wmode" value="transparent">
             <param name="movie" value="menu.swf" />
             <param name="quality" value="high" />
-            <embed src="menu.swf" quality="high" bgcolor="#GGGGG" width="580" height="270"
+            <embed src="menu.swf" quality="high" width="580" height="270" wmode="transparent"
                 name="menu" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false"
                 type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
         </object>
