@@ -47,7 +47,9 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Default\Imagens\input\btnEnviar.png" />
     <Content Include="Default.aspx" />
+    <Content Include="Eventos\evento001.jpg" />
     <Content Include="Global.asax" />
     <Content Include="App_Themes\Default\Imagens\bg\bgBody.png" />
     <Content Include="App_Themes\Default\Imagens\bg\bgContent.png" />
@@ -80,7 +82,10 @@
     <Content Include="menu.swf" />
     <Content Include="Paginas\CadastroMembro.aspx" />
     <Content Include="Paginas\UserControls\InstanciaMembro.ascx" />
-    <Content Include="App_Themes\Default\main.css" />
+    <Content Include="App_Themes\Default\main.css">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Parceiros\parceiro001.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

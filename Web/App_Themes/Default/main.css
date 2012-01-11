@@ -15,11 +15,33 @@ body{
     margin: 0px auto;
     border: 1px solid #000;
 }
-
+input[type='text'],[type='password']{
+	width: 90px;
+	height: 16px;
+	font-size: 8pt;
+	padding: 2px 5px 0px 5px;
+	border: #A69F86 solid 1px;
+	border-radius: 5px;
+	background: rgb(208,197,172); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QwYzVhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZiZjlmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMGM1YWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  rgb(208,197,172) 0%, rgb(251,249,246) 50%, rgb(208,197,172) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(208,197,172)), color-stop(50%,rgb(251,249,246)), color-stop(100%,rgb(208,197,172))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* IE10+ */
+	background: linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0c5ac', endColorstr='#d0c5ac',GradientType=1 ); /* IE6-8 */
+}
 /*
 	₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
 	TOPO DO SITE
 */
+#topo
+{
+    width: 800px;
+}
+
 #logomarca{
     margin: 25px 0px 0px 15px;
     float: left;
@@ -36,7 +58,7 @@ body{
 }
 /* PARTE DO PLAYER - DEPOIS VAI SER SUBSTITUIDO PELO FLASH ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪*/
 	#player-group{
-		margin: 98px 0px 0px 15px;
+		margin: 98px 0px 0px 10px;
 		background: url('Imagens/bg/fundoRadio.png') no-repeat;
 		width: 157px;
 		height: 60px;
@@ -66,18 +88,21 @@ body{
 		margin: 8px auto;
 		padding-left: 5px;
 	}
-/*₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪*/
+/*
+    Login Área
+    ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
+*/
 #login-group{
 	width: 190px;
 	height: 93px;
 	float: left;
-	margin: 62px 0px 0px 90px;
+	margin: 62px 0px 0px 75px;
 }
 #login-group  #login-panel{
 	margin: 5px auto;
 	padding: 6px 6px 6px 6px;
 	position: absolute;
-	width: 190px;
+	width: 215px;
 	background: rgb(198,194,172); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(198,194,172,1) 0%, rgba(194,186,158,1) 49%, rgba(198,191,162,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(198,194,172,1)), color-stop(49%,rgba(194,186,158,1)), color-stop(100%,rgba(198,191,162,1))); /* Chrome,Safari4+ */
@@ -86,6 +111,11 @@ body{
 	background: -ms-linear-gradient(top,  rgba(198,194,172,1) 0%,rgba(194,186,158,1) 49%,rgba(198,191,162,1) 100%); /* IE10+ */
 	background: linear-gradient(top,  rgba(198,194,172,1) 0%,rgba(194,186,158,1) 49%,rgba(198,191,162,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c2ac', endColorstr='#c6bfa2',GradientType=0 ); /* IE6-9 */
+    /* For Internet Explorer 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#c6c2ac, endColorstr=#c6bfa2);
+    /* For Internet Explorer 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#c6c2ac, endColorstr=#c6bfa2)";    
+
 	border-radius:10px;
 }
 #login-group  ul,li{
@@ -106,129 +136,154 @@ body{
 	text-align: right;
 	width: 50px;	
 }
-#login-group input[type='text'],[type='password']{
-	width: 90px;
-	height: 16px;
-	font-size: 8pt;
-	padding: 2px 5px 0px 5px;
-	border: #A69F86 solid 1px;
-	border-radius: 5px;
-	background: rgb(208,197,172); /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QwYzVhYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZiZjlmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMGM1YWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(left,  rgb(208,197,172) 0%, rgb(251,249,246) 50%, rgb(208,197,172) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(208,197,172)), color-stop(50%,rgb(251,249,246)), color-stop(100%,rgb(208,197,172))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* IE10+ */
-	background: linear-gradient(left,  rgb(208,197,172) 0%,rgb(251,249,246) 50%,rgb(208,197,172) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0c5ac', endColorstr='#d0c5ac',GradientType=1 ); /* IE6-8 */
-}
 #login-group #login-titulo{
 	width: 100%;
 	height: 28px;
 	background: url('Imagens/topo/cadastro.png') no-repeat center center;
 }
 
-
-
-.menu
-{
-    background-image: url('../Imagens/bg/bgMenu.png');
-    background-repeat: no-repeat;
-    margin: 0px 10px 0px 5px;
+.btnLogar input[type='image']{
+    border: 0px solid;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
-.linkMenu
-{
-    color: #FFFFFF;
-    padding: 5px;
+.btnLogar{
+    background: url('Imagens/input/btnEnviar.png') no-repeat center center;
+    width: 49px;
+    height: 25px;
+    position: relative;
+    float: right;
+    margin-right: -25px;
+    top: 25px;
 }
 
-.conteudo
-{
-    width: 600px;
+/*
+    Conteúdo
+    ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
+*/
+#conteudo{
+    width: 587px;
+    padding-left: 13px;
     float: left;
 }
-
-.quadrado
-{
-    background-image: url('../Imagens/parceiros/quadradoBranco.png');
-    width: 176px;
-    height: 163px;
+#menu-central{
+    margin: -20px 0px 0px 5px;
+}
+#placeHolder{
+    border-radius: 20px;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JlYjE4ZSIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkZDBhZCIgc3RvcC1vcGFjaXR5PSIwLjQiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top,  rgba(190,177,142,0.6) 0%, rgba(221,208,173,0.4) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(190,177,142,0.6)), color-stop(100%,rgba(221,208,173,0.4))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(190,177,142,0.6) 0%,rgba(221,208,173,0.4) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(190,177,142,0.6) 0%,rgba(221,208,173,0.4) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(190,177,142,0.6) 0%,rgba(221,208,173,0.4) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(190,177,142,0.6) 0%,rgba(221,208,173,0.4) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99beb18e', endColorstr='#66ddd0ad',GradientType=0 ); /* IE6-8 */
+}
+.elevarPlaceHolder{
+    top: -25px;
+    position: relative;
 }
 
-.quadradoVemPorAi
+/*
+    Menu Superior
+    ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
+*/
+#menu
 {
-    background-image: url('../Imagens/home/vemporai.png');
+    background-image: url('Imagens/bg/bgMenu.png');
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 0px;
+}
+#menu li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
 }
 
-.parceiro
+/*
+    Lateral Esquerda (Parceiros)
+    ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
+*/
+#parceiro-container
 {
     width: 200px;
     float: right;
-    margin-top: -10px;
+    padding-top: 5px;
 }
 
-.placeHolder
-{
-    padding: 15px;
-}
-
-.musica
-{
-    float: left;
-    width: 200px;
-    margin-top: 80px;
-    margin-left: 30px;
-}
-
-.oquevemporai
-{
-    margin-top: 200px;
-    margin-left: 10px;
-}
-
-.musica .player
-{
-    width: 151px;
-    height: 54px;
-    background-image: url('../Imagens/bg/fundoRadio.png');
-    color: #FFF;
-    padding: 3px;
-    position: absolute;
-}
-.musica .sanfona
-{
-    float: left;
+.lnkSejaParceiro{
     position: relative;
-    margin-left: 120px;
-    margin-top: -25px;
-    background-image: url('../Imagens/topo/sanfona.png');
+    left: 50%;
+    margin-left: -69px;
 }
 
-.login
-{
-    float: left;
-    width: 180px;
-    margin-top: 45px;
-    margin-left: 55px;
+#parceiro-titulo{
+    background: url('Imagens/parceiros/parceiros.png') no-repeat center center;
+    width: 200px;
+    height: 57px;
+    position: relative;
 }
+
+#parceiro-list{
+    margin-top: -25px;
+}
+.quadrado
+{
+    background: url('Imagens/parceiros/quadradoBranco.png') no-repeat center center;
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*
+    Default.aspx | Vem Por Ai
+    ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
+*/
+
+#oqvemporai-titulo{
+    background: url('Imagens/home/oquevemporai.png') no-repeat center center;
+    width: 240px;
+    height: 61px;
+}
+.btnMais{
+    position: relative;
+    background: url('Imagens/home/btn+.png') no-repeat;
+    width: 18px;
+    height: 17px;
+    float: right;
+    margin: -20px 10px 0px 0px;
+    
+}
+.quadradoVemPorAi
+{
+    background: url('Imagens/home/vemporai.png') no-repeat center center;
+    position: relative;
+    width: 180px;
+    height: 223px;
+    margin-left: 8px;
+}
+.imgVemPorAi
+{
+    position: absolute;
+    width: 160px;
+    height: 203px;
+    padding: 10px 0px 0px 15px;
+}
+.dtlVemPorAi{
+    margin-top: -30px;
+}
+
+/*
+    Default.aspx | Calendário
+    ₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪₪
+*/
 
 .calendario
 {
     margin-top: 10px;
-}
-
-.manugiratorio
-{
-    margin-top: 50px;
-    margin-left: 10px;
-
-}
-#menu
-{
-    background-image: url('../Imagens/bg/bgContent.png');        
 }
 
 
@@ -239,38 +294,10 @@ body{
     margin-top: 10px;
 }
 
-.btnMais
-{
-    position: absolute;
-    margin-top: 203px;
-    margin-left: -30px;
-}
 
-.login img
-{
-    margin-bottom: 10px;
-}
 
-.login input
-{
-    padding: 0px;
-    border: 0;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
-}
 
-.topo
-{
-    width: 800px;
-}
 
-.tituloParceiro
-{
-    position: absolute;
-    left: 50%;
-    top: 170px;
-    margin-left: 202px;
-}
 
 .rodape
 {
@@ -283,30 +310,11 @@ body{
     text-align: center;
 }
 
-.listaParceiros
-{
-    padding-top: 15px;
-    margin-top: -40px;
-}
-
-
-input
-{
-    border: none;
-    background-image: url('../Imagens/input/textLogin.png');
-    width: 100px;
-    height: 16px;
-}
 
 .imgParceiro
 {
     width: 156px;
     height: 143px;
     margin: 10px 10px 10px 10px;
-    border: none;
-}
-
-.imgVemPorAi
-{
     border: none;
 }
