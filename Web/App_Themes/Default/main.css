@@ -141,7 +141,6 @@ input[type='text'],[type='password']{
 	height: 28px;
 	background: url('Imagens/topo/cadastro.png') no-repeat center center;
 }
-
 .btnLogar input[type='image']{
     border: 0px solid;
     padding: 0px 0px 0px 0px;
