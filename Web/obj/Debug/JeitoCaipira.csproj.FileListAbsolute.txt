@@ -25,3 +25,12 @@ C:\Profissional\JeitoCaipira\Web\bin\References.pdb
 C:\Profissional\JeitoCaipira\Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Profissional\JeitoCaipira\Web\obj\Debug\JeitoCaipira.dll
 C:\Profissional\JeitoCaipira\Web\obj\Debug\JeitoCaipira.pdb
+C:\Git\JeitoCaipira\Web\bin\JeitoCaipira.dll
+C:\Git\JeitoCaipira\Web\bin\JeitoCaipira.pdb
+C:\Git\JeitoCaipira\Web\bin\DBLayers.dll
+C:\Git\JeitoCaipira\Web\bin\References.dll
+C:\Git\JeitoCaipira\Web\bin\DBLayers.pdb
+C:\Git\JeitoCaipira\Web\bin\References.pdb
+C:\Git\JeitoCaipira\Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\JeitoCaipira\Web\obj\Debug\JeitoCaipira.dll
+C:\Git\JeitoCaipira\Web\obj\Debug\JeitoCaipira.pdb

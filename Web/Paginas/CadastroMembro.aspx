@@ -3,7 +3,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="cConteudo" runat="server">
     <asp:Button runat="server" ID="btnSalvar" Text="Salvar" OnClick="btnSalvar_OnClick" />
     <UCAdmin:CadastroMembro runat="server" ID="ucCadastroMembro" />
 </asp:Content>

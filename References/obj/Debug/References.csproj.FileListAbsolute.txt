@@ -23,3 +23,8 @@ C:\Profissional\JeitoCaipira\References\bin\Debug\References.pdb
 C:\Profissional\JeitoCaipira\References\obj\Debug\ResolveAssemblyReference.cache
 C:\Profissional\JeitoCaipira\References\obj\Debug\References.dll
 C:\Profissional\JeitoCaipira\References\obj\Debug\References.pdb
+C:\Git\JeitoCaipira\References\bin\Debug\References.dll
+C:\Git\JeitoCaipira\References\bin\Debug\References.pdb
+C:\Git\JeitoCaipira\References\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\JeitoCaipira\References\obj\Debug\References.dll
+C:\Git\JeitoCaipira\References\obj\Debug\References.pdb

@@ -9,68 +9,108 @@
 <body>
   <form id="form1" runat="server">
   <div id="corpo-site">
-    <div class="topo">
+    <div id="topo">
       <div id="logomarca"></div>
-      <img src="../Imagens/topo/jeitao.png" style="margin-bottom: 10px;" alt="Logo" />
-      <div class="musica">
-        <div class="player">
-          [Atista - Música]
-        </div>
-        <div class="sanfona">
-          <img src="../Imagens/topo/sanfona.png" alt=" " />
-        </div>
+      <div id="titulo-logo"></div>
+      <div id="player-group">
+        <div id="sanfona"></div>
+        <div id="panel-player">>> flash player <<</div>
+        <div id="panel-musica"><asp:Literal ID="lblNomeMusica" runat="Server" Text="Quero ver vc por isso aqui pra funcionar..." /></div>
       </div>
-      <div class="login">
-        <img src="../Imagens/topo/cadastro.png" alt=" " />
-        <br />
-        login
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-        senha
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+      <div id="login-group">
+        <div id="login-titulo"></div>
+        <div>
+            <ul id="login-panel">
+                <li>
+                    <ul>
+                        <li>
+                            <span style="float: right;">Login:</span>
+                        </li>
+                        <li>
+                            <asp:TextBox ID="txtUsurio" runat="server" />
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <span style="float: right;">Senha:</span>
+                        </li>
+                        <li>
+                            <asp:TextBox ID="txtSenha" runat="server" TextMode="Password" />
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <asp:ImageButton runat="Server" ID="btnLogar" ToolTip="Efetuar Logon" CssClass="btnLogar" ImageUrl="~/App_themes/Default/Imagens/input/btnEnviar.png" />
+        </div>
       </div>
     </div>
     <br clear="all" />
-    <div>
-      <div class="conteudo">
-        <div class="menu">
-          <center>
-            <asp:HyperLink runat="server" ID="lnkHome" NavigateUrl="../Default.aspx" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/homeMenu.png" />
-            <asp:HyperLink runat="server" ID="lnkLocutores" NavigateUrl="#" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/locutoresMenu.png" />
-            <asp:HyperLink runat="server" ID="HyperLink2" NavigateUrl="#" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/fazendoMenu.png" />
-            <asp:HyperLink runat="server" ID="HyperLink3" NavigateUrl="#" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/alowwMenu.png" />
-            <asp:HyperLink runat="server" ID="HyperLink4" NavigateUrl="#" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/parceiroMenu.png" />
-            <asp:HyperLink runat="server" ID="HyperLink5" NavigateUrl="#" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/anuncieMenu.png" />
-            <asp:HyperLink runat="server" ID="HyperLink6" NavigateUrl="#" CssClass="linkMenu"
-              ImageUrl="~/Imagens/menu/cadastreMenu.png" /></center>
+    <div id="conteudo">
+        <ul id="menu">
+            <li>
+                <asp:HyperLink runat="server" ID="lnkHome" NavigateUrl="../Default.aspx"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/homeMenu.png" />
+            </li>
+            <li>
+                <asp:HyperLink runat="server" ID="lnkLocutores" NavigateUrl="#"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/locutoresMenu.png" />
+            </li>
+            <li>
+                <asp:HyperLink runat="server" ID="lnkFazendo" NavigateUrl="#"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/fazendoMenu.png" />
+            </li>
+            <li>
+                <asp:HyperLink runat="server" ID="lnkAlo" NavigateUrl="#"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/alowwMenu.png" />
+            </li>
+            <li>
+                <asp:HyperLink runat="server" ID="lnkParceiro" NavigateUrl="#"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/parceiroMenu.png" />
+            </li>
+            <li>
+                <asp:HyperLink runat="server" ID="lnkAnuncie" NavigateUrl="#"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/anuncieMenu.png" />
+            </li>
+            <li>
+                <asp:HyperLink runat="server" ID="lnkCadestre" NavigateUrl="#"
+                  ImageUrl="~/App_Themes/Default/Imagens/menu/cadastreMenu.png" /></center>
+            </li>
+        </ul>
+        <div id="menu-central">
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"
+                width="580" height="230" align="middle">
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="false" />
+                <param name="wmode" value="transparent">
+                <param name="movie" value="menu.swf" />
+                <param name="quality" value="high" />
+                <embed src="menu.swf" quality="high" width="580" height="230" wmode="transparent"
+                    name="menu" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false"
+                    type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+            </object>
         </div>
-        <div class="placeHolder">
-          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div id="placeHolder">
+          <asp:ContentPlaceHolder ID="cConteudo" runat="server">
           </asp:ContentPlaceHolder>
         </div>
       </div>
-      <div class="parceiro">
-        <img src="../Imagens/parceiros/parceiros.png" />
-        <center>
-          <div class="listaParceiros">
-            <asp:DataList runat="server" ID="dtlParceiro">
-              <ItemTemplate>
-                <div class="quadrado">
-                  <a href="http://www.google.com.br">
-                    <img src="../Imagens/topo/logo.png" class="imgParceiro" /></a>
-                </div>
-              </ItemTemplate>
-            </asp:DataList>
-          </div>
-          <div>
-            <img src="../Imagens/parceiros/sejaParceiro.png" />
-          </div>
-        </center>
+      <div id="parceiro-container">
+        <div id="parceiro-titulo"></div>
+        <div id="parceiro-list">
+            <asp:Repeater runat="server" ID="dtlParceiro">
+                <ItemTemplate>
+                    <div class="quadrado">
+                        <a href="http://www.google.com.br">
+                        <img src="Parceiros/parceiro001.png" class="imgParceiro" /></a>
+                    </div>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+        <br clear="all" />
+        <asp:HyperLink runat="Server" ID="lnkSejaParceiro" NavigateUrl="#" CssClass="lnkSejaParceiro"
+            ImageUrl="~/App_Themes/Default/Imagens/parceiros/sejaParceiro.png" />
       </div>
       <br clear="all" />
     </div>

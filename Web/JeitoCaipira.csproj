@@ -47,40 +47,45 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Default\Imagens\input\btnEnviar.png" />
     <Content Include="Default.aspx" />
+    <Content Include="Eventos\evento001.jpg" />
     <Content Include="Global.asax" />
-    <Content Include="App_Themes\Padrao\Imagens\bg\bgBody.png" />
-    <Content Include="App_Themes\Padrao\Imagens\bg\bgContent.png" />
-    <Content Include="App_Themes\Padrao\Imagens\bg\bgMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\bg\fundoRadio.png" />
-    <Content Include="App_Themes\Padrao\Imagens\bg\site.jpg" />
-    <Content Include="App_Themes\Padrao\Imagens\home\btn+.png" />
-    <Content Include="App_Themes\Padrao\Imagens\home\oquevemporai.png" />
-    <Content Include="App_Themes\Padrao\Imagens\home\vemporai.png" />
-    <Content Include="App_Themes\Padrao\Imagens\input\textLogin.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\alowwMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\anuncieMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\cadastreMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\fazendoMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\homeMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\locutoresMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\menu\parceiroMenu.png" />
-    <Content Include="App_Themes\Padrao\Imagens\parceiros\parceiros.png" />
-    <Content Include="App_Themes\Padrao\Imagens\parceiros\quadradoBranco.png" />
-    <Content Include="App_Themes\Padrao\Imagens\parceiros\sejaParceiro.png" />
-    <Content Include="App_Themes\Padrao\Imagens\rodape\cadastre.png" />
-    <Content Include="App_Themes\Padrao\Imagens\rodape\calendario.png" />
-    <Content Include="App_Themes\Padrao\Imagens\rodape\calendario1.png" />
-    <Content Include="App_Themes\Padrao\Imagens\rodape\rodape.png" />
-    <Content Include="App_Themes\Padrao\Imagens\topo\cadastro.png" />
-    <Content Include="App_Themes\Padrao\Imagens\topo\jeitao.png" />
-    <Content Include="App_Themes\Padrao\Imagens\topo\logo.png" />
-    <Content Include="App_Themes\Padrao\Imagens\topo\sanfona.png" />
+    <Content Include="App_Themes\Default\Imagens\bg\bgBody.png" />
+    <Content Include="App_Themes\Default\Imagens\bg\bgContent.png" />
+    <Content Include="App_Themes\Default\Imagens\bg\bgMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\bg\fundoRadio.png" />
+    <Content Include="App_Themes\Default\Imagens\bg\site.jpg" />
+    <Content Include="App_Themes\Default\Imagens\home\btn+.png" />
+    <Content Include="App_Themes\Default\Imagens\home\oquevemporai.png" />
+    <Content Include="App_Themes\Default\Imagens\home\vemporai.png" />
+    <Content Include="App_Themes\Default\Imagens\input\textLogin.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\alowwMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\anuncieMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\cadastreMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\fazendoMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\homeMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\locutoresMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\menu\parceiroMenu.png" />
+    <Content Include="App_Themes\Default\Imagens\parceiros\parceiros.png" />
+    <Content Include="App_Themes\Default\Imagens\parceiros\quadradoBranco.png" />
+    <Content Include="App_Themes\Default\Imagens\parceiros\sejaParceiro.png" />
+    <Content Include="App_Themes\Default\Imagens\rodape\cadastre.png" />
+    <Content Include="App_Themes\Default\Imagens\rodape\calendario.png" />
+    <Content Include="App_Themes\Default\Imagens\rodape\calendario1.png" />
+    <Content Include="App_Themes\Default\Imagens\rodape\rodape.png" />
+    <Content Include="App_Themes\Default\Imagens\topo\cadastro.png" />
+    <Content Include="App_Themes\Default\Imagens\topo\jeitao.png" />
+    <Content Include="App_Themes\Default\Imagens\topo\logo.png" />
+    <Content Include="App_Themes\Default\Imagens\topo\sanfona.png" />
     <Content Include="MailTemplates\emailpadrao.htm" />
     <Content Include="menu.swf" />
     <Content Include="Paginas\CadastroMembro.aspx" />
     <Content Include="Paginas\UserControls\InstanciaMembro.ascx" />
-    <Content Include="App_Themes\Padrao\main.css" />
+    <Content Include="App_Themes\Default\main.css">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Parceiros\parceiro001.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

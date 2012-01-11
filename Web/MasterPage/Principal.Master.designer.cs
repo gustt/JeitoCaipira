@@ -112,13 +112,13 @@ namespace JeitoCaipira.MasterPage {
         protected global::System.Web.UI.WebControls.HyperLink HyperLink6;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// cConteudo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder cConteudo;
         
         /// <summary>
         /// dtlParceiro control.
@@ -127,6 +127,6 @@ namespace JeitoCaipira.MasterPage {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList dtlParceiro;
+        protected global::System.Web.UI.WebControls.Repeater dtlParceiro;
     }
 }
